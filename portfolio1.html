@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Web Developer Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="portfolio1.css">
+</head>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center w3-black">
+  <!--image in top left corner -->
+  <img src="https://images.pexels.com/photos/249614/pexels-photo-249614.jpeg?auto=compress&cs=tinysrgb&w=600" style="height:15%;width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-whitesmoke">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-whitesmoke">
+    <i class="fa fa-image w3-xxlarge"></i>
+    <p>PHOTOS</p>
+  </a>
+  <a href="#projects" class="w3-bar-item w3-button w3-padding-large w3-hover-whitesmoke">
+    <i class="fa fa-folder w3-xxlarge"></i>
+    <p>PROJECTS</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-whitesmoke">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#projects" class="w3-bar-item w3-button" style="width:25% !important">PROJECTS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!--Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Antony Weiszer</h1>
+    <p>Web Designer & photographer</p>
+    <p>"Painting a vibrant picture of the digital world yet to come."</p>
+    <img src="https://images.pexels.com/photos/3526906/pexels-photo-3526906.jpeg?auto=compress&cs=tinysrgb&w=600" alt="boy" class="w3-image" width="992" height="1108">
+  </header>
+
+  <!-- About -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">Antony Weiszer</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>From HTML's structure to CSS's embrace, Creating websites, a symphony of grace. Crafting user experiences, intuitive and new, Navigating virtual landscapes with a vision true.
+      But beyond the screen, a lens comes alive, The photographer's gaze, keen and wise. Capturing moments, like a butterfly's flight, Freezing time's beauty, igniting pure delight.
+      So let us marvel at this fusion of artistry, Where two crafts intertwine with boundless ingenuity. A web developer and photographer, a masterful duo, Transforming the digital canvas with talent that's true.
+    </p>
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+    <p class="w3-wide">Web Design</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+    </div>
+    <p class="w3-wide">Photography</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+    </div>
+    <p class="w3-wide">Photoshop</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:75%"></div>
+    </div><br>
+    
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">7+</span><br>
+        Partners
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">55+</span><br>
+        Projects Done
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">99+</span><br>
+        Happy Clients
+      </div>
+    </div>
+
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"></i> Download Resume
+    </button>
+    
+    <!-- Grid for services tables -->
+    <h3 class="w3-padding-16 w3-text-light-grey">My Services</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
+          <li class="w3-padding-16">Web Design</li>
+          <li class="w3-padding-16">Photography</li>
+          <li class="w3-padding-16">5GB Storage</li>
+          <li class="w3-padding-16">25 Mail Support</li>
+          <li class="w3-padding-16">
+            <h2>Ksh. 25000</h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-half">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Pro</li>
+          <li class="w3-padding-16">Web Design</li>
+          <li class="w3-padding-16">Photography</li>
+          <li class="w3-padding-16">50GB Storage</li>
+          <li class="w3-padding-16">Endless Support</li>
+          <li class="w3-padding-16">
+            <h2>Ksh. 45000</h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+    <!-- End Grid -->
+    </div>
+    
+    <!-- Reputation -->
+    <h3 class="w3-padding-24 w3-text-light-grey">Reputation</h3>  
+    <img src="Sean Ryan.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Sean Ryan.</span> CEO at Techart Group of Schools.</p>
+    <p>Weiszer saved us from a web disaster.</p><br>
+    
+    <img src="JaniceAlfreds.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Janice Alfreds.</span> CEO at BeautySpa.</p>
+    <p>No one is better than Weiszer.</p>
+
+  </div>
+  
+  <!-- Photos -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">My Photos</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- photogrid -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="https://images.pexels.com/photos/805216/pexels-photo-805216.jpeg?auto=compress&cs=tinysrgb&w=600" style="width:100%">
+        <img src="https://images.pexels.com/photos/3687749/pexels-photo-3687749.jpeg?auto=compress&cs=tinysrgb&w=600" style="width:100%">
+        <img src="https://images.pexels.com/photos/3680457/pexels-photo-3680457.jpeg?auto=compress&cs=tinysrgb&w=600" style="width:100%">
+        <img src="https://images.pexels.com/photos/1458870/pexels-photo-1458870.jpeg?auto=compress&cs=tinysrgb&w=600" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="https://images.pexels.com/photos/4166353/pexels-photo-4166353.jpeg?auto=compress&cs=tinysrgb&w=600" style="width:100%">
+        <img src="https://images.pexels.com/photos/7319345/pexels-photo-7319345.jpeg?auto=compress&cs=tinysrgb&w=600" style="width:100%">
+        <img src="https://images.pexels.com/photos/6192561/pexels-photo-6192561.jpeg?auto=compress&cs=tinysrgb&w=600" style="width:100%">
+        <img src="https://images.pexels.com/photos/2301288/pexels-photo-2301288.jpeg?auto=compress&cs=tinysrgb&w=600" style="width:100%">
+      </div>
+    <!-- End grid -->
+    </div>
+  <!-- End -->
+  </div>
+
+<!-- Projects -->
+<div class="w3-padding-64 w3-content" id="projects">
+  <h2 class="w3-text-light-grey">My Projects</h2>
+  <hr style="width:200px" class="w3-opacity">
+
+
+  <div class="grid">
+    <div class="project big">
+       <img src="https://images.pexels.com/photos/1855214/pexels-photo-1855214.jpeg?auto=compress&cs=tinysrgb&w=600" alt="foodstore">
+       <h3 class="w3-black">ONLINE FOOD STORE WEBSITE</h3>
+    </div>
+    <div class="project small">
+       <img src="https://images.pexels.com/photos/19124461/pexels-photo-19124461/free-photo-of-3d-printing-tools.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Photoshop">
+       <H3 class="w3-black">PHOTOSHOP STUDIO WEBSITE</H3>
+    </div>
+    <div class="project medium">
+       <img src="https://images.pexels.com/photos/872512/pexels-photo-872512.jpeg?auto=compress&cs=tinysrgb&w=600" alt="camera">
+    </div>
+    <div class="project medium">
+       <img src="https://images.pexels.com/photos/2995188/pexels-photo-2995188.jpeg?auto=compress&cs=tinysrgb&w=600" alt="cluboden">
+       <h3 class="w3-black">CLUB ODEN EVENTS WEBSITE</h3>
+    </div>
+    <div class="project small">
+       <img src="https://images.pexels.com/photos/120049/pexels-photo-120049.jpeg?auto=compress&cs=tinysrgb&w=600" alt="motorstore">
+       <h3 class="w3-black">MARKENAN MOTORSTORES WEBSITE</h3>
+    </div>
+  </div>
+
+<!--End Projects-->
+
+  <!-- Contacts -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Nairobi, Kenya</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +254 735 507 176</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: Weiszer22@gail.com</p>
+    </div><br>
+    <p>Wanna get in touch? Send me a message:</p>
+
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  <!-- End Contacts -->
+  </div>
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <p>&copy; 2023 @weiszer</p>
+
+  <!-- End footer -->
+  </footer>
+
+</div>
+
+</body>
+</html>
